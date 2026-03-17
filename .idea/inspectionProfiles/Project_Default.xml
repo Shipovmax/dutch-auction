@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="django" />
+          <option value="flake8" />
+          <option value="flake8-docstrings" />
+          <option value="pep8-naming" />
+          <option value="pytils" />
+          <option value="pytest" />
+          <option value="pytest-django" />
+          <option value="pytest-lazy-fixture" />
+          <option value="pytest-subtests" />
+          <option value="asgiref" />
+          <option value="djangorestframework" />
+          <option value="pytz" />
+          <option value="sqlparse" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
