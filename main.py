@@ -179,14 +179,14 @@ def run_game():
                             auction_active = False
                             break
                 else:
-                    print(f"\n{Colors.RED}❌ The price reached its minimum!{Colors.END}")
+                    print(
+                        f"\n{Colors.RED}❌ The price reached its minimum!{Colors.END}"
+                    )
                     auction_active = False
 
             elif choice == "3":
                 print_leaderboard(game)
-                input(
-                    f"{Colors.YELLOW}Press Enter to continue...{Colors.END}"
-                )
+                input(f"{Colors.YELLOW}Press Enter to continue...{Colors.END}")
 
             elif choice == "4":
                 print(f"\n{Colors.YELLOW}⏭️ Round skipped{Colors.END}")
@@ -203,9 +203,7 @@ def run_game():
             print_leaderboard(game)
 
             if round_count < max_rounds and game.products:
-                input(
-                    f"{Colors.YELLOW}Press Enter for the next round...{Colors.END}"
-                )
+                input(f"{Colors.YELLOW}Press Enter for the next round...{Colors.END}")
 
     clear_screen()
     print_header()
