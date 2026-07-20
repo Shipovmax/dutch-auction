@@ -41,9 +41,9 @@ Python 3.7+
 ## Usage
 
 ```bash
-git clone https://github.com/Shipovmax/auction
-cd auction
-python main.py
+git clone https://github.com/Shipovmax/dutch-auction
+cd dutch-auction
+python3 main.py
 ```
 
 You will be prompted for your name, then the game starts.
@@ -62,8 +62,10 @@ You will be prompted for your name, then the game starts.
 ## Project Structure
 
 ```
-auction/
-└── main.py    # Everything: models, game logic, AI, rendering
+dutch-auction/
+├── main.py    # CLI entry point: screen rendering, input, and the game loop
+├── game.py    # Auction logic: products, players, pricing, and purchases
+└── ai.py      # AI bidding logic: how computer players decide to buy
 ```
 
 ---
